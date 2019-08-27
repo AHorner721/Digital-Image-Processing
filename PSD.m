@@ -1,6 +1,6 @@
 % Image processing: Power Spectral Density (PSD)
 
-pkg load image
+pkg load image % needed to read images
 
 img = imread("C:/Users/rednb/Desktop/Processing/truck3.png");
 
