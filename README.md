@@ -23,7 +23,7 @@ Digital Processing Techniques:
 
 ## DIP Programs Implemented
 
-####Power Spectra Density (PSD):
+###Power Spectra Density (PSD):
 - Power Spectra Density measures the strength of frequency variations of an image. High frequencies are sharp variations in pixel intensity values and associated with contour lines in an image. Low frequencies generally represent the smooth regions of an image.
 
 - Developed a function to measure the PSD of an image.
