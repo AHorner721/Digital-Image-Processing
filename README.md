@@ -27,4 +27,4 @@ Power Spectra Density (PSD):
 - Power Spectra Density measures the strength of frequency variations of an image. High frequencies are sharp variations in pixel intensity values and associated with contour lines in an image. Low frequencies generally represent the smooth regions of an image.
 
 Mutual Information (MI):
-- Mutual information measures corresponding intensity pixel values between two images. It is implemented using a joint histogram, which counts how many graytone match or correspondence occurs. Mutual information is useful for finding the amount of information one variable has in relation to another variable.
+- Mutual information measures corresponding intensity pixel values between two images. It is implemented using a joint histogram, which counts how many graytone matches or correspondence occurs. Mutual information is useful for finding the amount of information one variable has in relation to another variable.
