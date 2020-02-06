@@ -4,14 +4,17 @@ pkg load image % needed to read images
 
 img = imread("C:/Users/rednb/Desktop/Processing/truck3.png");
 
+% convert image to grayscale
 img = rgb2gray(img);
 
+% apply fast fourier transform to img
 fft_output = fft2(img);
 FFT = fftshift(fft_output);
 
 F = abs(FFT); % magnitude
 F = (F-min(min(F)))./(max(max(F))).*255; %normalize data
 
+% power spectral formula
 psd = log10(abs(fftshift(fft2(img)))+eps);
 psd_img = mat2gray(psd);
 
