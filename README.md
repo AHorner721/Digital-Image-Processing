@@ -1,12 +1,12 @@
 # Octave - Digital Image Processing
-Learning digital image processing techniques using the open source software GNU Octave.
+Learning digital image processing techniques using the open source software GNU Octave. (Summer Internship 2019)
 
 ## Digital Image Processing (DIP) Overview
 Digital image processing is a method used to perform operations on an image in order to extract or enhance useful information.
 
 Three Steps to Image Processing: 
 1.  Import image via acquisition tools
-2.  Analyze and manipulate the image
+2.  Image analysis and manipulation
 3.  Output result: An image or report based on image analysis
 
 Digital Processing Techniques:
@@ -17,9 +17,13 @@ Digital Processing Techniques:
    - Noise reduction
    - Spatial filtering
    - Thresholding
-- Information Extraction: Histogram, Data Analysis 
+- Information Extraction: 
+   - Histograms
+   - Data Analysis 
 
-## DIP Algorithms Implemented With Octave
+## DIP Programs Implemented
 
-Power Spectra Density:
-- 
+Power Spectra Density (PSD):
+- Power Spectra Density measures the strength of frequency variations of an image. High frequencies are sharp variations in pixel intensity values and associated with contour lines in an image. Low frequencies generally represent the smooth regions of an image.
+
+- Developed a function to measure the PSD of an image.
