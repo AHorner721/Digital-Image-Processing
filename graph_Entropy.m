@@ -135,7 +135,3 @@ figure;hold on;plot(eL(1,1:10));plot(eL(2,1:10));plot(eL(3,1:10));plot(eL(4,1:10
 
 figure;hold on;plot(eG(1,1:10));plot(eG(2,1:10));plot(eG(3,1:10));plot(eG(4,1:10));plot(eG(5,1:10));plot(eG(6,1:10));plot(eG(7,1:10));plot(eG(8,1:10));plot(eG(9,1:10));plot(eG(10,1:10));plot(eG(11,1:10));plot(eG(12,1:10));plot(eG(13,1:10));plot(eG(14,1:10));plot(eG(15,1:10));plot(eG(16,1:10));plot(eG(17,1:10));plot(eG(18,1:10));plot(eG(19,1:10));plot(eG(20,1:10));plot(eG(21,1:10));plot(eG(22,1:10));plot(eG(23,1:10));xlabel("threshold level(%)");ylabel("Entropy Level");title("No T-Bar Entropy Values below (>) Threshold");legend("00001","00002","00003","00004","00005","00006","00007","00008","00009","000010","000011","000012","000013","000014","000015","000016","000017","000018","000019","000020","000021","000022","000023");
 
-%---------------------------------------------------------------------------------------------
-% display ifft power level
-%img = imread("file_name_here");
-%show_ifft(img,"threshold#here","g/l");
